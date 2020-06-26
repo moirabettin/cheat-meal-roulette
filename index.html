@@ -16,7 +16,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker
-            .register("/cmr/service-worker.js")
+            .register("/service-worker.js")
             .then(reg => {
               console.log("Service worker registered.", reg);
             });
@@ -30,14 +30,9 @@
       <div class="animated roulette-container">
         <a class="link-to" href="" target="_blank"><span class="roulette"></span></a class="link-to">
       </div>
-      <button class="spin">I'm feeling lucky</button>
-      <footer>Developed with ❤️ by Manuel</footer>
+      <button class="spin">I'm feeling silly</button>
+      <footer>Developed with &#9760 by Moirabe</footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    >
-      </script>
     <script src="js/roulette.js"></script>
   </body>
 </html>
