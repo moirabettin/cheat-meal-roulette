@@ -1,7 +1,7 @@
 /* VARIABLES */
 :root {
-  --pink: #fc60a7;
-  --light-blue: #00f3ff;
+  --pink: #161515;
+  --light-blue: #51c9d1;
   --yellow: #fbff21;
   --white: #ffffff;
 }
@@ -213,6 +213,7 @@ table {
 .tada {
   -webkit-animation-name: tada;
   animation-name: tada;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes bounceIn {
@@ -343,7 +344,7 @@ body {
 
 h1 {
   font-family: "Bangers", cursive;
-  font-size: 200%;
+  font-size: 500%;
   margin-bottom: 20px;
   color: var(--light-blue);
 }
@@ -354,7 +355,7 @@ button,
 }
 
 .roulette {
-  height: 26px;
+  height: 40px;
   color: var(--yellow);
 }
 
@@ -380,7 +381,7 @@ button:active {
 
 footer {
   font-family: "Fredoka One", cursive;
-  font-size: 12px;
+  font-size: 40px;
   color: var(--white);
   padding-top: 30px;
 }
